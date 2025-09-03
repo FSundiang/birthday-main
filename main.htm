@@ -1,0 +1,31 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <title>Birthday</title>
+  </head>
+  <body>
+  <div class="mel" id="main">
+    <div class="message">
+      Happy Birthday<br/> Babee!!
+    </div>
+      <div>
+          <a href="pages.htm" class="btn">
+              <button>Continue</button>
+          </a>
+          <a href="no-thanks.htm" class="btn">
+              <button>No thanks</button>
+          </a>
+        </div>      
+  </div>
+
+  <script>
+    document.getElementById('noThanksBtn').onclick = function() {
+      document.getElementById('main').style.display = 'none';
+      document.getElementById('no-thanks.htm').style.display = 'flex';
+    };
+  </script>
+  </body>
+  </html>
