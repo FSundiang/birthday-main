@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Top pink gradient */
+.header {
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(to right, #f8c9c9, #ffffff);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  gap: 40px;
+}
+
+
+/* Happy Birthday text */
+.message {
+  font-family: "Brush Script MT", cursive;
+  font-size: 28px;
+  color: black;
+  vertical-align: text-top;
+}
+
+/* Image frame */
+.frame {
+  width: 350px;
+  height: 250px;
+  background-color: #ddd;
+  border: 2px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+  flex-shrink: 0;
+}
+
+.frame img {
+  width: 300%;
+  height: 100%;
+  object-fit: cover;
+}

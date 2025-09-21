@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (name === "Gallery") {
           window.location.href = "gallery.htm";
         } else if (name === "Messages") {
-          window.location.href = "messages.htm";
+          window.location.href = "message.htm";
         } else if (name === "Other") {
           window.location.href = "other.htm";
         }
