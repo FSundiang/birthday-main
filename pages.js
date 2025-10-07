@@ -12,9 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
           window.location.href = "gallery.htm";
         } else if (name === "Messages") {
           window.location.href = "message.htm";
-        } else if (name === "Other") {
-          window.location.href = "other.htm";
-        }
+        } 
+        
       });
     });
   });
