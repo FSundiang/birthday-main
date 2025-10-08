@@ -1,6 +1,3 @@
 {
-  "builds": [
-    { "src": "package.json", "use": "@vercel/node" }
-  ],
-  "cache": ["node_modules", ".next"]
+  "$schema": "https://openapi.vercel.sh/vercel.json"
 }
